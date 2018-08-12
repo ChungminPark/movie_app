@@ -20,7 +20,7 @@ function Movie({title, poster, genres, synopsis, url}) {
         <LinesEllipsis
           text={synopsis}
           maxLine='3'
-          ellipsis=' ...'
+          ellipsis='...'
           trimRight
           basedOn='letters'
         />

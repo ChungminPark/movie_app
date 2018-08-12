@@ -7,7 +7,7 @@ class App extends Component {
   state = [
 
   ]
-
+ 
   _renderMovies = () => {
     const movies = this.state.movies.map(movie => {
       return <Movie 
